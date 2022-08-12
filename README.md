@@ -7,13 +7,18 @@ A Python project template following https://mitelman.engineering/blog/python-bes
 * [asdf](https://asdf-vm.com/)
 * [poetry](https://poetry.eustace.io/)
 
-## Commands
+## Instructions
+
+First, replace `pyject` in files with your new project name.
+
+And then, run the following commands:
 
 * `poetry install`
-* `poetry shell`
-* `pre-commit autoupdate`: keep pre-commit config updated to the latest version of tools
+* `poetry run pre-commit install`
+* `poetry run pre-commit autoupdate`: keep pre-commit config updated to the latest version of tools
 
 
+Use `poetry shell` to activate the virtual environment.
 ## How to reproduce
 
 ```bash
