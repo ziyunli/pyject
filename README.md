@@ -9,9 +9,9 @@ A Python project template following https://mitelman.engineering/blog/python-bes
 
 ## Commands
 
-`poetry install`
-`poetry shell`
-`pre-commit autoupdate`: keep pre-commit config updated to the latest version of tools
+* `poetry install`
+* `poetry shell`
+* `pre-commit autoupdate`: keep pre-commit config updated to the latest version of tools
 
 
 ## How to reproduce
@@ -22,8 +22,8 @@ poetry new {project_name}
 cd !$
 
 # with pyenv
-pyenv install 3.10.5
-pyenv local !$
+# pyenv install 3.10.5
+pyenv local 3.10.5
 poetry env use python
 
 # Dev toolings
