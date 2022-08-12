@@ -26,9 +26,14 @@ poetry new {project_name}
 
 cd !$
 
-# with pyenv
+# with asdf
+asdf install python latest
+asdf local python latest
+
+# or with pyenv
 # pyenv install 3.10.5
-pyenv local 3.10.5
+# pyenv local 3.10.5
+
 poetry env use python
 
 # Dev toolings
