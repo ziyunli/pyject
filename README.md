@@ -1,6 +1,6 @@
 # pyject
 
-A Python project template following https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/
+A Python project template. Mostly following setups from https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/.
 
 ## Dependencies
 
@@ -19,6 +19,8 @@ And then, run the following commands:
 
 
 Use `poetry shell` to activate the virtual environment.
+
+`poetry run pytest` to run tests.
 ## How to reproduce
 
 ```bash
@@ -37,5 +39,6 @@ asdf local python latest
 poetry env use python
 
 # Dev toolings
+poetry add --dev pytest@latest # poetry new constrained pytest to ^5.2 by default.
 poetry add --dev pytest-cov pre-commit flake8 mypy isort black
 ```
