@@ -1,5 +1,7 @@
 # pyject
 
+[![CI](https://github.com/ziyunli/pyject/actions/workflows/ci.yaml/badge.svg)](https://github.com/ziyunli/pyject/actions/workflows/ci.yaml)
+
 A Python project template. Mostly following setups from https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/.
 
 ## Dependencies
